@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景</title>
+    <style>
+        div {
+            width: 2000px;
+            height: 2000px;
+            background-color: white;
+            background-image: url(D:/downloads/7224907.jpg);
+            background-repeat: no-repeat;
+            /* 还能精确单位 background-position:XXpx XXpx 如果只指定一个数值，那这个数值一定是X轴 另一个垂直居中 
+            当然 也可以混合使用 background-position:XXpx center*/
+            background-position: center top;
+        }
+
+        #bga {
+            background-attachment: fixed;
+            background-image: url(D:/downloads/7224907.jpg);
+        }
+
+        .a {
+            width: 300px;
+            height: 300px;
+            /* 透明度rgba a取值0~1 只是背景色半透明 内容不会有影响 */
+            background: rgba(0, 0, 0, 0.3);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+        <h3>1</h3>
+
+    </div>
+    <div id="bga"></div>
+
+    <p class="a"></p>
+</body>
+
+</html>
